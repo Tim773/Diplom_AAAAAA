@@ -24,5 +24,10 @@ namespace Diplom_AAAAAA
         {
             InitializeComponent();
         }
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
